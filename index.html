@@ -9,7 +9,8 @@ css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
-<div data-role="page">
+<!--Start primary page-->
+<div data-role="page" id="index">
 	<div data-role="header" data-theme="b">
 	<a href="#info" data-role="button" data-icon="info">About game</a><h1>NASA -  IOE</h1>
 	</div><!-- /header -->
@@ -23,25 +24,66 @@ css" />
 	<!--Questions-->
 	<div data-role="popup" id="tahiti_G">
 	<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
-		<img src="image/tahiti_G.jpg"><p>In August 1768, Captain James Cook, naturalist</p>
-		<h2>Complete text above:</h2>
+		<img src="image/tahiti_G.jpg"><p>In August 1768, Captain James Cook, naturalist...</p>
+		<h2>Complete phrase above:</h2>
   		<ul data-role="listview" data-inset="true">
-    	<li><a href="#"> Joseph Banks, and a shipload of sailors set sail from England to Tahiti to observe the Transit of Venus.</a></li>
+    	<li><a href="#">Joseph Banks, and a shipload of sailors set sail from England to Tahiti to observe the Transit of Venus.</a></li>
     	<li><a href="#">geologists have figured out the likely history of Tahiti-Nui.</a></li>
     	<li><a href="#">Mountains are taller on the northern half of the island.</a></li>
     </ul>
 	</div>
+
+	<div data-role="popup" id="maupiti_G">
+		<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+		<img src="image/maupiti_G.jpg"><p>Spanning less than 10 kilometers(...), Maupiti Island sits in the South Pacific Ocean.</p>
+		<h2>Complete phrase above:</h2>
+		<ul data-role="listview" data-inset="true">
+    	<li><a href="#">3 miles</a></li>
+    	<li><a href="#">6 miles</a></li>
+    	<li><a href="#">12 miles</a></li>
+    </ul>
+	</div>
+
+	<div data-role="popup" id="hawaii_G">
+		<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+		<img src="image/hawaii_G.jpg"><p>If anyone has an easy job, its the ..... .</p>
+		<h2>Complete phrase above:</h2>
+		<ul data-role="listview" data-inset="true">
+    	<li><a href="#">Brazil tourism authority</a></li>
+    	<li><a href="#">Hawaii tourism authority</a></li>
+    	<li><a href="#">The Tuamotu Archipelago</a></li>
+    </ul>
+	</div>
+
+	<div data-role="popup" id="ISS026_G">
+		<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+		<img src="image/ISS026_G.jpg"><p>Cat Island is one of 29 islands, 661 cays, and 2,387 islets that form the Commonwealth of the ... .</p>
+		<h2>Complete phrase above:</h2>
+		<ul data-role="listview" data-inset="true">
+    	<li><a href="#">Brazil</a></li>
+    	<li><a href="#">Hawaii</a></li>
+    	<li><a href="#">Bahamas</a></li>
+    </ul>
+	</div>
+
+
 	</div><!-- /content -->
 <div data-role="footer" data-theme="b">
 	<h4>&copy; Islands On Earth</h4>
 	</div><!-- /footer -->
 </div><!-- /page -->	
-<!--second page-->
+
+<!-- Start second page-->
 <div data-role="page" id="info">
-		<div data-role="header" data-theme="b"><h1>NASA -  IOE</h1></div>		
-		<p>comming soon</p>
-		<div data-role="footer" data-theme="b">
-	<h4>&copy; Islands On Earth</h4>
+	<div data-role="header" data-theme="b">
+	<a href="#index" data-role="button" data-icon="back">back</a><h1>NASA -  IOE</h1>
+	</div>		
+	<div data-role="content">
+		<p>Game about history of islands on earth.</p>
+	<p>You complete phrase with options below.</p>
+	</div>
+	<div data-role="footer" data-theme="b">
+	  <h4>&copy; Islands On Earth</h4>
 	</div><!-- /footer -->
 
 	</div>
